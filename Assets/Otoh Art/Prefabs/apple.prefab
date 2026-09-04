@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1159739250501693711}
   - component: {fileID: 4034328054974891461}
   - component: {fileID: 8740686388819911391}
-  - component: {fileID: 4993124072035706721}
+  - component: {fileID: 6385885463935748447}
   m_Layer: 0
   m_Name: apple
   m_TagString: Untagged
@@ -119,8 +119,8 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!64 &4993124072035706721
-MeshCollider:
+--- !u!135 &6385885463935748447
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -137,7 +137,6 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3645058858012553506, guid: 0d60872da6cfa6d4998349949aa72b05, type: 3}
+  serializedVersion: 3
+  m_Radius: 0.12512162
+  m_Center: {x: 0.0010219924, y: -0.0049353875, z: -0.0031404123}
