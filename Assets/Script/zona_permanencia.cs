@@ -9,7 +9,7 @@ public class zona_permanencia : MonoBehaviour
     float tf;
     float peso;
 
-    public TextMeshPro meshpro;
+    public TextMeshProUGUI meshpro;
     void Start()
     {
         tf = tiempo;
