@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class Tutorial_Manager : MonoBehaviour
@@ -10,7 +11,7 @@ public class Tutorial_Manager : MonoBehaviour
     public TextMeshProUGUI text_tutorial;
     // Cajas que participan en el tutorial
     public List<Ordenar_objetos> Cajas;
-
+    public UnityEvent on_tutorial_complete;
     // Cantidad de aciertos necesarios
     public int objetivo = 3;
 
@@ -85,7 +86,7 @@ public class Tutorial_Manager : MonoBehaviour
     void TutorialCompletado()
     {
         Debug.Log("¡Tutorial completado!");
-
+        on_tutorial_complete.Invoke();
         Terminado = true;
     }
 }
