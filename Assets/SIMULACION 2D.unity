@@ -2993,7 +2993,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -950.66223, y: -538.4302}
-  m_SizeDelta: {x: 6.57, y: 3.62}
+  m_SizeDelta: {x: 4, y: 3.62}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &223493129
 MonoBehaviour:
@@ -9474,7 +9474,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -955.0447, y: -538.1774}
-  m_SizeDelta: {x: 6.57, y: 3.62}
+  m_SizeDelta: {x: 4, y: 3.62}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &792330581
 MonoBehaviour:
@@ -12952,7 +12952,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -951.90576, y: -538.2637}
-  m_SizeDelta: {x: 6.57, y: 3.62}
+  m_SizeDelta: {x: 4, y: 3.62}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1037677143
 MonoBehaviour:
@@ -12974,7 +12974,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: MANZANA NO PERTENECE AQUI
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -14362,7 +14362,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -953.5768, y: -538.26373}
-  m_SizeDelta: {x: 6.57, y: 3.62}
+  m_SizeDelta: {x: 4, y: 3.62}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1127212428
 MonoBehaviour:
@@ -14384,7 +14384,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: MANZANA NO PERTENECE AQUI
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -18514,7 +18514,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -952.80994, y: -538.2637}
-  m_SizeDelta: {x: 6.57, y: 3.62}
+  m_SizeDelta: {x: 4, y: 3.62}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1417894657
 MonoBehaviour:
@@ -18536,7 +18536,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: MANZANA NO PERTENECE AQUI
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -18704,7 +18704,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -950.66223, y: -538.4302}
-  m_SizeDelta: {x: 6.57, y: 3.62}
+  m_SizeDelta: {x: 4, y: 3.62}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1426605693
 MonoBehaviour:
@@ -21015,7 +21015,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -955.0376, y: -538.1774}
-  m_SizeDelta: {x: 6.57, y: 3.62}
+  m_SizeDelta: {x: 4, y: 3.62}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1602313198
 MonoBehaviour:
@@ -21408,7 +21408,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -954.98584, y: -538.1774}
-  m_SizeDelta: {x: 6.57, y: 3.62}
+  m_SizeDelta: {x: 4, y: 3.62}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1637933803
 MonoBehaviour:
