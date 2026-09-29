@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 5928537490190810412}
   - component: {fileID: 5313162984061716814}
   - component: {fileID: 8437332928387023924}
+  - component: {fileID: 543999654937773382}
   m_Layer: 0
   m_Name: apple
   m_TagString: Untagged
@@ -180,6 +181,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -3645058858012553506, guid: 0d60872da6cfa6d4998349949aa72b05, type: 3}
+--- !u!114 &543999654937773382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3241522516619191312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3cc3a064a2de342a61be604ee146b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Respawn
+  alturaRespawn: -10
 --- !u!1 &6345315872179568604
 GameObject:
   m_ObjectHideFlags: 0

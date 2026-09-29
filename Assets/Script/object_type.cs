@@ -3,15 +3,8 @@ using UnityEngine;
 public class object_type : MonoBehaviour
 {
     public Ordenar_objetos.objetos objeto;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public bool is_tutorial;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public bool guardado;
+
 }
