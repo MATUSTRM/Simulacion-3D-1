@@ -110,6 +110,7 @@ GameObject:
   - component: {fileID: 2265925466470951692}
   - component: {fileID: 2416384181844747172}
   - component: {fileID: 8556010256580717403}
+  - component: {fileID: 1081324816437869476}
   m_Layer: 0
   m_Name: orange
   m_TagString: Untagged
@@ -283,3 +284,16 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 606173478187478459, guid: 297736f5105505549bab4a665f8b636e, type: 3}
+--- !u!114 &1081324816437869476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8602040299817230307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4c07358c19ccbb45a83aab3a46f7686, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::object_type
+  objeto: 2

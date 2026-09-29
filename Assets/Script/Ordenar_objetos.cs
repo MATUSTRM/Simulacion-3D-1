@@ -1,55 +1,114 @@
-using System.Collections;
+
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Ordenar_objetos : MonoBehaviour
 {
-    public List<Transform> Orden_de_posiciones;
-    int index;
+    public enum objetos
+    {
+        Manzana,
+        pera,
+        naranja,
+        arma,
+        plato,
+        vaso
+    }
 
-    bool puedeOrdenar = true;
+    [System.Serializable]
+    public class espacio
+    {
+        public Transform pos;
+        public bool ocupado;
+        public object_type obj;
+    }
 
+    public objetos objeto;
+
+    public List<espacio> espacios;
 
     void OnTriggerEnter(Collider other)
     {
-        if (!puedeOrdenar)
+        if (espacios == null || espacios.Count == 0)
+        return;
+        object_type tipo =
+            other.GetComponent<object_type>();
+
+        if (tipo == null)
             return;
 
-        Debug.Log("INDEX ANTES: " + index);
-
-        if (index >= Orden_de_posiciones.Count)
-            return;
-
-        puedeOrdenar = false;
-
-        other.transform.position = Orden_de_posiciones[index].position;
-
-        Debug.Log("Se colocó en posición: " + index);
-
-        Rigidbody rb = other.GetComponent<Rigidbody>();
-
-        if (rb != null)
+        switch (objeto)
         {
-            rb.linearVelocity = Vector3.zero;
-            rb.isKinematic = true;
+            case objetos.Manzana:
+
+                if (tipo.objeto != objetos.Manzana)
+                    return;
+
+                break;
+
+            case objetos.naranja:
+
+                if (tipo.objeto != objetos.naranja)
+                    return;
+
+                break;
+
+            case objetos.pera:
+
+                if (tipo.objeto != objetos.pera)
+                    return;
+
+                break;
+
+            case objetos.plato:
+
+                if (tipo.objeto != objetos.plato)
+                    return;
+
+                break;
+
+            case objetos.vaso:
+
+                if (tipo.objeto != objetos.vaso)
+                    return;
+
+                break;
+
+            case objetos.arma:
+
+                if (tipo.objeto != objetos.arma)
+                    return;
+
+                break;
         }
 
-        siguiente();
+        foreach (espacio espacio in espacios)
+        {
+            if (espacio.ocupado)
+                continue;
 
-        StartCoroutine(EsperarSiguiente());
-    }
+            espacio.ocupado = true;
+            espacio.obj = tipo;
 
+            other.transform.position =
+                espacio.pos.position;
 
-    IEnumerator EsperarSiguiente()
-    {
-        yield return new WaitForFixedUpdate();
+            Debug.Log(
+                "Objeto guardado en: " +
+                espacio.pos.name
+            );
 
-        puedeOrdenar = true;
-    }
+            Rigidbody rb =
+                other.GetComponent<Rigidbody>();
 
+            if (rb != null)
+            {
+                rb.linearVelocity = Vector3.zero;
+                rb.isKinematic = true;
+            }
 
-    public void siguiente()
-    {
-        index++;
+            return;
+        }
+
+        Debug.Log("No hay espacios disponibles.");
     }
 }

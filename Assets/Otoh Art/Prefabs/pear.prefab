@@ -109,6 +109,7 @@ GameObject:
   - component: {fileID: 7403464531891791506}
   - component: {fileID: 1733549039111493027}
   - component: {fileID: 5377495974260612804}
+  - component: {fileID: 9047324866083078586}
   m_Layer: 0
   m_Name: pear
   m_TagString: Untagged
@@ -261,3 +262,16 @@ MonoBehaviour:
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
   _forceKinematicDisabled: 0
+--- !u!114 &9047324866083078586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3924744102221376038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4c07358c19ccbb45a83aab3a46f7686, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::object_type
+  objeto: 1
